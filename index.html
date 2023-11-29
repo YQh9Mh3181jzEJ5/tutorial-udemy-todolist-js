@@ -7,12 +7,12 @@
   </head>
   <body>
     <div class="input-area">
-      <input placeholder="ToDoを入力" />
-      <button>追加</button>
+      <input placeholder="ToDoを入力" id="add-text" />
+      <button id="add-button">追加</button>
     </div>
     <div class="incomplete-area">
       <p class="title">未完了のToDo</p>
-      <ul>
+      <ul id="incomplete-list">
         <li>
           <div class="list-row">
             <p class="todo-item">ToDo1です。</p>
@@ -40,6 +40,6 @@
         </li>
       </ul>
     </div>
-    <sctip src="./index.js" typy="module"></sctip>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
